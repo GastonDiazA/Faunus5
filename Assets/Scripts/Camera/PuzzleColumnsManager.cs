@@ -14,7 +14,7 @@ public class PuzzleColumnsManager : PuzzlesCamManager
     void Start()
     {
         _playerInput = FindObjectOfType<PlayerInput>();
-        _particleSystem = GetComponentInChildren<ParticleSystem>();
+        //_particleSystem = GetComponentInChildren<ParticleSystem>();
         //_rotation1 = objectToRotate1.GetComponent<ContinousRotationWithSelect>();
         //_rotation2 = objectToRotate2.GetComponent<ContinousRotationWithSelect>();
         //_rotation3 = objectToRotate3.GetComponent<ContinousRotationWithSelect>();
@@ -27,7 +27,7 @@ public class PuzzleColumnsManager : PuzzlesCamManager
         {
             //Debug.Log("Puzzle cam ON.");
             _playerInput.enabled = false;
-            _particleSystem.Stop();
+            //_particleSystem.Stop();
             _puzzleCam.SetActive(true);
             _thirdPersonCam.SetActive(false);
             //_rotation1.enabled = true;
@@ -38,7 +38,7 @@ public class PuzzleColumnsManager : PuzzlesCamManager
         {
             //Debug.Log("Puzzle cam OFF.");
             _playerInput.enabled = true;
-            _particleSystem.Play();
+            //_particleSystem.Play();
             _puzzleCam.SetActive(false);
             _thirdPersonCam.SetActive(true);
             //_rotation1.enabled = false;

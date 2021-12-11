@@ -22,11 +22,11 @@ public class PuzzleMirrorCamBlendManager : PuzzlesCamManager
 
     protected override void TurnOnOffPuzzle()
     {
-        if (Input.GetMouseButton(0)&& _thirdPersonCam.activeInHierarchy)
+        if (Input.GetKeyDown(KeyCode.C) && _thirdPersonCam.activeInHierarchy)
         {
             //Debug.Log("Puzzle cam ON.");
             _playerInput.enabled = false;
-            _particleSystem.Stop();
+            //_particleSystem.Stop();
             _puzzleCam.SetActive(true);
             _thirdPersonCam.SetActive(false);
             refCamMirror.SetActive(true);
@@ -34,11 +34,11 @@ public class PuzzleMirrorCamBlendManager : PuzzlesCamManager
             // _rotation2.enabled = true;
             // _rotation3.enabled = true;
         } 
-        else if (Input.GetMouseButton(0) && !_thirdPersonCam.activeInHierarchy)
+        else if (Input.GetKeyDown(KeyCode.C) && !_thirdPersonCam.activeInHierarchy)
         {
             //Debug.Log("Puzzle cam OFF.");
             _playerInput.enabled = true;
-            _particleSystem.Play();
+            //_particleSystem.Play();
             _puzzleCam.SetActive(false);
             _thirdPersonCam.SetActive(true);
             // _rotation1.enabled = false;

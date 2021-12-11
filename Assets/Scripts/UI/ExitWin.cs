@@ -7,22 +7,12 @@ public class ExitWin : MonoBehaviour
 {
     public GameObject winExitMenu;
     
-    void Start()
+
+    public void Win()
     {
+        Time.timeScale = 0f;
+        winExitMenu.SetActive(true);
         
     }
-
     
-
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Time.timeScale = 0f;
-            winExitMenu.SetActive(true);
-            
-
-        }
-    }
 }

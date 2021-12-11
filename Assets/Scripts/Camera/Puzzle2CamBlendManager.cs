@@ -10,7 +10,7 @@ public class Puzzle2CamBlendManager : PuzzlesCamManager
     void Start()
     {
         _playerInput = FindObjectOfType<PlayerInput>();
-        _particleSystem = GetComponent<ParticleSystem>();
+       // _particleSystem = GetComponent<ParticleSystem>();
         //_rotation1 = objectToRotate.GetComponent<ContinousRotation>();
     }
     protected override void TurnOnOffPuzzle()
@@ -20,7 +20,7 @@ public class Puzzle2CamBlendManager : PuzzlesCamManager
             //Debug.Log("Puzzle cam ON.");
             Debug.Log("Entre al puzzle desde el hijo.");
             _playerInput.enabled = false;
-            _particleSystem.Stop();
+           //_particleSystem.Stop();
             _puzzleCam.SetActive(true);
             _thirdPersonCam.SetActive(false);
             //_rotation1.enabled = true;
@@ -31,7 +31,7 @@ public class Puzzle2CamBlendManager : PuzzlesCamManager
             //Debug.Log("Puzzle cam OFF.");
             Debug.Log("Sali del puzzle desde el hijo.");
             _playerInput.enabled = true;
-            _particleSystem.Play();
+            //  _particleSystem.Play();
             _puzzleCam.SetActive(false);
             _thirdPersonCam.SetActive(true);
             //_rotation1.enabled = false;

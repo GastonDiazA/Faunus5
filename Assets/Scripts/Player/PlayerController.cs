@@ -134,6 +134,11 @@ public class PlayerController : MonoBehaviour
         {
             //SceneManager.LoadScene("Level_1");
         }
+
+        if (hit.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(hit.gameObject);
+        }
     }
 
     private void ImpulseByPlatform(){

@@ -12,7 +12,7 @@ public class PuzzlesCamManager : MonoBehaviour
     [SerializeField] protected GameObject _puzzleCam;
     [SerializeField] protected GameObject _thirdPersonCam;
     protected PlayerInput _playerInput;
-    protected ParticleSystem _particleSystem;
+    //protected ParticleSystem _particleSystem;
     public GameObject puzzleManager;
 
     private TargetPlatformBase [] _targetPlatformBases; 
@@ -24,7 +24,7 @@ public class PuzzlesCamManager : MonoBehaviour
     {
         _playerInput = FindObjectOfType<PlayerInput>();
 
-        _particleSystem = GetComponent<ParticleSystem>();
+        //_particleSystem = GetComponent<ParticleSystem>();
 
         _targetPlatformBases = puzzleManager.GetComponents<TargetPlatformBase>();
 
@@ -43,11 +43,11 @@ public class PuzzlesCamManager : MonoBehaviour
 
     protected virtual void TurnOnOffPuzzle()
     {
-        if (Input.GetMouseButton(0) && _thirdPersonCam.activeInHierarchy)
+        if (Input.GetKeyDown(KeyCode.C) && _thirdPersonCam.activeInHierarchy)
         {
             //Debug.Log("Puzzle cam ON.");
             _playerInput.enabled = false;
-            _particleSystem.Stop();
+            //_particleSystem.Stop();
             _puzzleCam.SetActive(true);
             _thirdPersonCam.SetActive(false);
             
@@ -58,11 +58,11 @@ public class PuzzlesCamManager : MonoBehaviour
             // }
             
         } 
-        else if (Input.GetMouseButton(0) && !_thirdPersonCam.activeInHierarchy)
+        else if (Input.GetKeyDown(KeyCode.C) && !_thirdPersonCam.activeInHierarchy)
         {
             //Debug.Log("Puzzle cam OFF.");
             _playerInput.enabled = true;
-            _particleSystem.Play();
+            //_particleSystem.Play();
             _puzzleCam.SetActive(false);
             _thirdPersonCam.SetActive(true);
             for (int i = 0; i < _targetPlatformBases.Length; i++)
