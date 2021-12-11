@@ -1,0 +1,99 @@
+newmtl Arms
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_Arms_Albedo.png
+bump faun_Arms_Height.png
+map_bump faun_Arms_Normal.png
+newmtl Belt
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_Belt_Albedo.png
+bump faun_Belt_Height.png
+map_bump faun_Belt_Normal.png
+newmtl Mask
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_Mask_Albedo.png
+bump faun_Mask_Height.png
+map_bump faun_Mask_Normal.png
+newmtl Misc
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_Misc_Albedo.png
+bump faun_Misc_Height.png
+map_bump faun_Misc_Normal.png
+newmtl Orejas
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_Orejas_Albedo.png
+bump faun_Orejas_Height.png
+map_bump faun_Orejas_Normal.png
+newmtl body
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_body_Albedo.png
+bump faun_body_Height.png
+map_bump faun_body_Normal.png
+newmtl hombreras
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_hombreras_Albedo.png
+bump faun_hombreras_Height.png
+map_bump faun_hombreras_Normal.png
+newmtl horns
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_horns_Albedo.png
+bump faun_horns_Height.png
+map_bump faun_horns_Normal.png
+newmtl ropa
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd faun_ropa_Albedo.png
+bump faun_ropa_Height.png
+map_bump faun_ropa_Normal.png

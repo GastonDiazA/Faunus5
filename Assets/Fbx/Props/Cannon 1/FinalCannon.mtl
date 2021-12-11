@@ -1,0 +1,44 @@
+newmtl Material.003
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd FinalCannon_Material.003_Albedo.png
+bump FinalCannon_Material.003_Height.png
+map_bump FinalCannon_Material.003_Normal.png
+newmtl Material.004
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd FinalCannon_Material.004_Albedo.png
+bump FinalCannon_Material.004_Height.png
+map_bump FinalCannon_Material.004_Normal.png
+newmtl Material.005
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd FinalCannon_Material.005_Albedo.png
+bump FinalCannon_Material.005_Height.png
+map_bump FinalCannon_Material.005_Normal.png
+newmtl Material.006
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd FinalCannon_Material.006_Albedo.png
+bump FinalCannon_Material.006_Height.png
+map_bump FinalCannon_Material.006_Normal.png

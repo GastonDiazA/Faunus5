@@ -1,0 +1,33 @@
+newmtl Flor
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd flyPlantaFInal_Flor_Albedo.png
+bump flyPlantaFInal_Flor_Height.png
+map_bump flyPlantaFInal_Flor_Normal.png
+newmtl Verde
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd flyPlantaFInal_Verde_Albedo.png
+bump flyPlantaFInal_Verde_Height.png
+map_bump flyPlantaFInal_Verde_Normal.png
+newmtl Material.001
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd flyPlantaFInal_Material.001_Albedo.png
+bump flyPlantaFInal_Material.001_Height.png
+map_bump flyPlantaFInal_Material.001_Normal.png
